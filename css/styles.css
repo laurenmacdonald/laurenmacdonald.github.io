@@ -1,0 +1,123 @@
+/*Page Fade-in*/
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.about-body{
+  background: linear-gradient(to left top, #fbf2d9, #eadafc) fixed;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: PPRightGothic;
+  src: url("../fonts/PPRightGothic-WideMedium.ttf") format("truetype");
+  font-style: normal;
+}
+.aboutImage, .contactImage{
+  width: 300px;
+}
+.card{
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.content-link{
+  font-size: 16pt;
+}
+.content-link:hover, .footer-link:hover{
+  opacity: .50;
+  transition: .3s;
+}
+
+.home-title {
+  font-family: PPRightGothic, serif !important;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+.home-message {
+  font-size: 14pt;
+}
+.about-title{
+  font-family: PPRightGothic, serif !important;
+  font-size: 2rem;
+}
+.footer-cta{
+  font-family: PPRightGothic, serif !important;
+  font-size: 3rem;
+}
+
+.card-title {
+  font-family: PPRightGothic, serif !important;
+  font-size: 2rem;
+}
+
+.section-title {
+  font-family: PPRightGothic, serif !important;
+  font-size: 4rem;
+}
+.checkout:hover{
+  opacity: .50;
+}
+.language-icon{
+  opacity: .75;
+}
+.top{
+  background: #A5869C;
+  color:#202020;
+  padding: 1rem 1.2rem;
+  margin: 15px;
+  border-radius: 8rem;
+  float: left;
+  text-decoration: none;
+  right: auto;
+  bottom: 1rem;
+  left: 1rem;
+  top: auto;
+  position: fixed;
+  visibility: visible;
+  z-index: 1;
+  opacity: .75;
+}
+.top:hover{
+  opacity: 1.0;
+}
+
+@media all and (max-width: 768px) {
+  .aboutImage, .contactImage{
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .home-title {
+    font-size: 6rem;
+  }
+  .home-message {
+    font-size: 18pt;
+  }
+  .content-link{
+    font-size: 18pt;
+  }
+  .aboutImage{
+    width: 400px;
+  }
+  .about-title{
+    font-family: PPRightGothic, serif !important;
+    font-size: 3rem;
+  }
+}

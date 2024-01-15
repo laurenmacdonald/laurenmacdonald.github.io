@@ -1,0 +1,89 @@
+$white: #ffffff;
+$floral-white: #FCF9ED;
+$cosmic-latte: #FFF8E7;
+$thistle: #D7C9D3;
+$gray: #808080;
+$dim_gray: #606060;
+$onyx: #404040;
+$eerie_black: #202020;
+$black: #000000;
+$green: #4F7942;
+$periwinkle: #ecf2ff;
+$gold: #edd65f;
+$dev-green: #c2f4a3;
+$java-blue-subtle: #b9f2ff;
+$react-blue-subtle: #c0f0fd;
+$css-blue-subtle: #bcddf7;
+$html-orange-subtle: #eb9079;
+$php-purple-subtle: #bcbed8;
+$kotlin-purple-subtle: #eadafc;
+$android-green-subtle: #dfebb9;
+$compose-green-subtle: #bcf1d4;
+$spring-green-subtle: #cbe7b9;
+$bootstrap-purple: #cdadfa;
+$cpp-blue-subtle: #6fc1ff;
+$cs-purple-subtle: #b788ff;
+$rest-blue-subtle: #c2d7fb;
+$ai-green-subtle: #c7dcd6;
+$js-yellow-subtle: #f7eeb8;
+$scss-pink-subtle: #e9c1d4;
+
+// scss-docs-start theme-color-variables
+$primary: $floral-white;
+$secondary: $cosmic-latte;
+$tertiary: $thistle;
+$light: $white;
+$dark: $eerie_black;
+$on-primary: $black;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "tertiary":   $tertiary,
+  "light":      $light,
+  "dark":       $dark,
+  "research":   $periwinkle,
+  "design":     $gold,
+  "development": $dev-green,
+  "java-blue-subtle":       $java-blue-subtle,
+  "react-blue-subtle":      $react-blue-subtle,
+  "css-blue-subtle": $css-blue-subtle,
+  "html-orange-subtle": $html-orange-subtle,
+  "php-purple-subtle": $php-purple-subtle,
+  "kotlin-purple-subtle": $kotlin-purple-subtle,
+  "android-green-subtle": $android-green-subtle,
+  "compose-green-subtle": $compose-green-subtle,
+  "spring-green-subtle": $spring-green-subtle,
+  "bootstrap-purple": $bootstrap-purple,
+  "cpp-blue-subtle": $cpp-blue-subtle,
+  "cs-purple-subtle": $cs-purple-subtle,
+  "rest-blue-subtle": $rest-blue-subtle,
+  "ai-green-subtle": $ai-green-subtle,
+  "js-yellow-subtle": $js-yellow-subtle,
+  "scss-pink-subtle": $scss-pink-subtle
+);
+// scss-docs-end theme-colors-map
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-text-align:           null !default;
+$body-color:                $on-primary;
+$body-bg:                   $primary;
+
+$body-secondary-color:      rgba($body-color, .75) !default;
+$body-secondary-bg:         $secondary;
+
+$body-tertiary-color:       rgba($body-color, .5) !default;
+$body-tertiary-bg:          $tertiary;
+
+$body-emphasis-color:       $black;
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+

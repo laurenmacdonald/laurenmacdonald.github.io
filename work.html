@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lauren MacDonald</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="scss/cust_styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <link rel="icon" href="assets/stars.ico" sizes="any">
+</head>
+
+<body class="about-body">
+<!-- navbar start -->
+<nav class="navbar navbar-expand-lg">
+  <a id="top"></a>
+  <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link m-3 px-3 py-1 fw-semibold bg-php-purple-subtle rounded-4" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link m-3 px-3 py-1 fw-semibold bg-php-purple-subtle rounded-4" aria-current="page" href="work.html">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link m-3 px-3 py-1 fw-semibold bg-php-purple-subtle rounded-4" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link m-3 px-3 py-1 fw-semibold bg-php-purple-subtle rounded-4" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+
+<!-- work section start -->
+<a id="work"></a>
+<section class="work">
+  <div class="container-lg">
+    <div class="row min-vh-100 align-items-center align-content-start">
+      <h1 class="section-title text-center text-body-emphasis">My Work</h1>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <p class="work-message text-center text-body-emphasis">A collection of mobile applications, websites, REST
+              API work. </p>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-9">
+            <a href="https://github.com/laurenmacdonald/MOBI3002_WeatherApp_Compose" target="_blank"
+               class="card bg-light mb-3 text-decoration-none">
+              <div class="row g-0">
+                <div class="col-md-7">
+                  <img src="assets/weatherApp.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Android Mobile Weather App</h5>
+                    <p class="card-text">This app was built using Kotlin, Compose in Android Studio. weatherapi.com is
+                      used to pull weather data for the current forecast and 3-day forecast. The user's latitude and
+                      longitude are accessed and used to supply the API URL parameter required to access weather data
+                      for the area.</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-android-green-subtle border-success-subtle rounded-4">Android
+                      Development</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-kotlin-purple-subtle border-success-subtle rounded-4">Kotlin</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-compose-green-subtle border-success-subtle rounded-4">Compose</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9 align-content-end">
+            <a href="https://github.com/laurenmacdonald/PROG2200_REST_API_Spring_Boot" target="_blank"
+               class="card bg-light mb-3 text-decoration-none">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Alerts Notification REST API</h5>
+                    <p class="card-text">REST API created with Java Spring Boot. Multiple endpoints for fictitious
+                      emergency services to retrieve information about dwellings and people in the event of an
+                      emergency. Returns JSON.</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-java-blue-subtle border-success-subtle rounded-4">Java</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-spring-green-subtle border-success-subtle rounded-4">Spring
+                      Boot</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-rest-blue-subtle border-success-subtle rounded-4">REST
+                      API Development</small>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <img src="assets/restAPI.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-9">
+            <a href="https://github.com/laurenmacdonald/MOBI3002_CalculatorApp" target="_blank"
+               class="card bg-light mb-3 text-decoration-none">
+              <div class="row g-0">
+                <div class="col-md-7">
+                  <img src="assets/calculatorApp.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Android Mobile Calculator App</h5>
+                    <p class="card-text">Simple calculator mobile application that takes user input from UI and presents
+                      result. Loosely based on existing calculator applications.
+                      Developed using Android Studio with Java, demonstrating UI design and development with Views in
+                      the Layout Editor XML file.</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-android-green-subtle border-success-subtle rounded-4">Android
+                      Development</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-java-blue-subtle border-success-subtle rounded-4">Java</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9 align-content-end">
+            <a href="https://github.com/laurenmacdonald/INET2005_FitnessClub_Website" target="_blank"
+               class="card bg-light mb-3 text-decoration-none">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Fitness Club Management System</h5>
+                    <p class="card-text">Web application for a fictitious fitness club using PHP, HTML, CSS and
+                      Bootstrap.
+                      Functionality for members and
+                      trainers to view and update their respective schedules and admin to create, update and delete
+                      schedules.</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-php-purple-subtle border-success-subtle rounded-4">PHP</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-html-orange-subtle border-success-subtle rounded-4">HTML</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-css-blue-subtle border-success-subtle rounded-4">CSS</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-bootstrap-purple border-success-subtle rounded-4">Bootstrap</small>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <img src="assets/fitnessClub.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-9">
+            <a href="https://github.com/laurenmacdonald/PROG1400_Java_Swing_Screensaver" target="_blank"
+               class="card bg-light mb-3 text-decoration-none">
+              <div class="row g-0">
+                <div class="col-md-7">
+                  <img src="assets/bouncingBall.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Java Swing Collision Detection "Screensaver"</h5>
+                    <p class="card-text">
+                      A screensaver of shapes that bounce off of each other created using Java Swing.
+                      On mouse click a new shape of random size and color will be generated. The shapes bounce off of
+                      the walls of the screen and each other. When a shape hits another shape it will change color.</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-java-blue-subtle border-success-subtle rounded-4">Java</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-java-blue-subtle border-success-subtle rounded-4">Java
+                      Swing</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9 align-content-end">
+            <a href="https://github.com/laurenmacdonald/PROG2100_Student_Information_System" target="_blank"
+               class="card bg-light mb-3 text-decoration-none">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">C++ Console Student Information System</h5>
+                    <p class="card-text">C++ console program that takes information about students in a class and
+                      enables users to view and manipulate the data for each student.</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-cpp-blue-subtle border-success-subtle rounded-4">C++</small>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <img src="assets/cpp.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- work section end -->
+
+<!-- in progress section start -->
+<a id="in-progress"></a>
+<section class="in-progress py-5">
+  <div class="container-lg">
+    <div class="row min-vh-100 align-items-center align-content-start">
+      <h1 class="section-title text-center text-body-emphasis">In Progress</h1>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <p class="work-message text-center text-body-emphasis">Some projects that I have in different states of
+              completion. Most recently I'm diving into learning React - check back soon to see more! </p>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-9 align-content-end">
+            <div class="card bg-light mb-3">
+              <div class="card-header bg-research">
+                Current Phase: Research and Planning
+              </div>
+              <div class="row g-0">
+                <div class="col-md-7">
+                  <img src="assets/placeholder1.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">React Web Content Management System (CMS)</h5>
+                    <p class="card-text"><small class="text-body-secondary">Last updated January 14th, 2024</small></p>
+                    <p class="card-text">A group project in progress for the capstone project for the final semester of
+                      NSCC. Project planning is underway as of January 2024!</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-react-blue-subtle border-success-subtle rounded-4">React</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-3">
+          </div>
+          <div class="col-md-9 align-content-end">
+            <div class="card bg-light mb-3">
+              <div class="card-header bg-research">
+                Current Phase: Research and Planning
+              </div>
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <div class="card-body">
+                    <h5 class="card-title">Recipe Book Web App with AI-Driven Suggestions</h5>
+                    <p class="card-text"><small class="text-body-secondary">Last updated January 14th, 2024</small></p>
+                    <p class="card-text">For my self-directed learning course in which I will be learning JavaScript. I
+                      want to build a web application that acts as a recipe 'book' that allows users to store recipes
+                      and
+                      offers recipe suggestions using openAI's API. Users will be able to create an account and login,
+                      add
+                      personalization such as dietary restrictions, preferences and allergies.</p>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-js-yellow-subtle border-success-subtle rounded-4">JavaScript</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-ai-green-subtle border-success-subtle rounded-4">Artificial
+                      Intelligence</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-html-orange-subtle border-success-subtle rounded-4">HTML</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-css-blue-subtle border-success-subtle rounded-4">CSS</small>
+                    <small
+                      class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-php-purple-subtle border-success-subtle rounded-4">PHP</small>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <img src="assets/placeholder1.png" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-md-9 align-content-end">
+              <div class="card bg-light mb-3">
+                <div class="card-header bg-development">
+                  Current Phase: Refining
+                </div>
+                <div class="row g-0">
+                  <div class="col-md-7 p-5">
+                    <img src="assets/stars.svg" class="img-fluid rounded-start" alt="..." style="width:300px; opacity: 50%">
+                  </div>
+                  <div class="col-md-5">
+                    <div class="card-body">
+                      <h5 class="card-title">Portfolio Website</h5>
+                      <p class="card-text"><small class="text-body-secondary">Last updated January 14th, 2024</small></p>
+                      <p class="card-text">This website! I'll be adding to this as I complete more work. This website is
+                        built with HTML, CSS and Bootstrap. I'm customizing Bootstrap using SCSS for the first time! As I continue
+                      with my JavaScript learning I hope to incorporate what I'm learning into this website.</p>
+                      <small
+                        class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-html-orange-subtle border-success-subtle rounded-4">HTML</small>
+                      <small
+                        class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-css-blue-subtle border-success-subtle rounded-4">CSS</small>
+                      <small
+                        class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-bootstrap-purple border-success-subtle rounded-4">Bootstrap</small>
+                      <small
+                        class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-scss-pink-subtle border-success-subtle rounded-4">SCSS</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- in progress section ens -->
+
+<!-- up arrow nav to top -->
+<div class="anchor">
+  <a href="#top" class="top">
+    <img src="assets/arrow-up.svg" alt="top of page" width="16" height="16"/>
+  </a>
+</div>
+<!-- end nav to top -->
+
+<!-- footer start -->
+<footer class="text-center text-lg-start">
+  <div class="container p-5">
+    <h2 class="footer-cta text-center text-uppercase py-5 border-bottom-0">
+      Let's Chat
+    </h2>
+    <div class="row">
+      <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Find me here</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="https://www.linkedin.com/in/lauren-macdonald-hfx/" class="text-decoration-none text-dark footer-link">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/laurenmacdonald" class="text-decoration-none text-dark footer-link">GitHub</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-center">I would love to hear from you!</h5>
+      </div>
+      <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Connect Directly</h5>
+        <a href="mailto:lauren.marie.macdonald@gmail.com" class="text-decoration-none text-dark footer-link">E-mail</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
